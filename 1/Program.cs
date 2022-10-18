@@ -5,3 +5,11 @@
 
 string[] arr = { "Hello", "World", "qq", "a" };
 Console.WriteLine(string.Join(", ", arr));
+
+for (int i = 0; i < arr.Length; i++)
+{
+    if (arr[i].Length <= 3)
+    {
+        Console.Write(arr[i] + "  ");
+    }
+}
